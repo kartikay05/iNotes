@@ -1,4 +1,4 @@
-<?php  
+<?php
 // INSERT INTO `notes` (`sno`, `title`, `description`, `tstamp`) VALUES (NULL, 'But Books', 'Please buy books from Store', current_timestamp());
 $insert = false;
 $update = false;
