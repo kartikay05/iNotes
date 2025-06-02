@@ -30,5 +30,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     header("Location: index.php?msg=Success! added successfully");
     exit;
   }
+
+  if (isset($_POST['name']) && isset($_POST['email'])) {
+
+    $name = htmlspecialchars(trim($_POST['name']));
+    $email = htmlspecialchars(trim($_POST['email']));
+    $subject = htmlspecialchars(trim($_POST['subject']));
+    $message = htmlspecialchars(trim($_POST['message']));
+
+    // Prepare SQL
+    $stmt = $conn->prepare("INSERT INTO contact_messages (name, email, subject, message) VALUES (?, ?, ?, ?)");
+    $stmt->bind_param("ssss", $name, $email, $subject, $message);
+
+    if ($stmt->execute()) {
+      header("Location: pages/contact.php?status=success");
+    } else {
+      header("Location: pages/contact.php?status=error");
+    }
+
+    $stmt->close();
+  }
 }
 ?>

@@ -2,8 +2,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <!-- Logo -->
-    <a class="navbar-brand" href="./assets/images/logo/logo-transparent.png" target="_blank">
-      <img id="nav_img" src="./assets/images/favicon/android-chrome-192x192.png" height="35" alt="">
+    <a class="navbar-brand" href="/inotes/assets/images/logo/logo-transparent.png" target="_blank">
+      <img id="nav_img" src="/inotes/assets/images/favicon/android-chrome-192x192.png" height="35" alt="logo">
     </a>
     <!-- Toggler for mobile view -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -15,13 +15,13 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/iNotes/">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="/inotes/pages/contact.php">Contact Us</a>
         </li>
       </ul>
     </div>

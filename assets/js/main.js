@@ -55,3 +55,9 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+// if (window.location.search.includes('status=')) {
+//     setTimeout(() => {
+//         window.history.replaceState({}, document.title, window.location.pathname);
+//     }, 500);
+// }
+
