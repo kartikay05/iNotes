@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+/* #add_note{
+    margin-top: ;
+} */
+
+#myTable {
+    width: 100%;
+}
+
+#nav_img {
+    width: 4vw;
+    height: auto;
+    margin: 0 2.5%;
+}
+
+.nav-link {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+@media only screen and (max-width: 321px) {
+    .edit {
+        margin: 5px 0;
+        width: 20vw;
+        padding: 2px 5px;
+    }
+
+    .delete {
+        padding: 2px 0;
+        width: 20vw;
+    }
+
+    .toast {
+        width: 90vw;
+        height: auto;
+        margin-left: 10px;
+    }
+}
+
+.toast-body {
+    width: 90vw;
+    height: auto;
+}
