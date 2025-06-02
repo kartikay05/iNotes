@@ -71,5 +71,8 @@
 ![image](https://github.com/user-attachments/assets/5dc530c8-411f-4aec-b8da-7f8093041502)
 ![image](https://github.com/user-attachments/assets/a8547936-43c5-4536-83f8-0d4aa539686a)
 
+✉️ Contact
+Feel free to connect with me on LinkedIn — I’m always open to networking, collaboration, and new opportunities!
+Link: https://www.linkedin.com/in/kartikay-bhardwaj-253347275/
 
 Made with ❤️ by Kartikay
