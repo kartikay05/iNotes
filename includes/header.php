@@ -18,10 +18,10 @@
           <a class="nav-link active" aria-current="page" href="/iNotes/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" target="_blank" href="/inotes/pages/about.php">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/inotes/pages/contact.php">Contact Us</a>
+          <a class="nav-link" target="_blank" href="/inotes/pages/contact.php">Contact Us</a>
         </li>
       </ul>
     </div>

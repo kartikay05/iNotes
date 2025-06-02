@@ -10,7 +10,7 @@
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
    <!-- Bootstrap 5 JS Bundle (includes Popper) -->
-  <title>iNotes - Notes taking made easy</title>
+  <title>Home || notes taking made easy</title>
   <link rel="shortcut icon" href="/inotes/assets/images/favicon/apple-touch-icon.png" type="image/x-icon">
   <link rel="shortcut icon" href="/inotes/assets/images/favicon/favicon-16x16.png" type="image/x-icon">
   <link rel="stylesheet" href="/inotes/assets/css/style.css">
