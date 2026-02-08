@@ -60,7 +60,7 @@
     instructions:
       - "Create a new MySQL database (e.g., iNotesDB)"
       - "Import the provided notes.sql file to create necessary tables"
-      - "Update database credentials in db.php"
+      - "Update database credentials in conn.php"
   - step: "Run the application"
     instructions:
       - "Copy the project folder to your local web server directory (htdocs for XAMPP)"
